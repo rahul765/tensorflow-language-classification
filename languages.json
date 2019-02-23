@@ -1,0 +1,7 @@
+{
+	"py": ["py"],
+	"java":["java"],
+	"cpp":["cpp"],
+	"cs" : ["cs"],
+	"php" : ["php"]
+}

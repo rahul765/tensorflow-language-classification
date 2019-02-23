@@ -1,0 +1,15 @@
+package com.kickstarter.viewmodels;
+
+import com.kickstarter.KSRobolectricTestCase;
+
+import org.junit.Test;
+
+public class SignupDataTest extends KSRobolectricTestCase {
+  @Test
+  public void testSignupData_isValid() {
+    assertTrue((new SignupViewModel.SignupData("brando", "b@kickstarter.com", "danisawesome", true)).isValid());
+    assertFalse((new SignupViewModel.SignupData("", "b@kickstarter.com", "danisawesome", true)).isValid());
+    assertFalse((new SignupViewModel.SignupData("brando", "b@kickstarter", "danisawesome", true)).isValid());
+    assertFalse((new SignupViewModel.SignupData("brando", "b@kickstarter.com", "dan", true)).isValid());
+  }
+}

@@ -1,0 +1,21 @@
+Predicted on 4491 files. Results are as follows:
+
+Confusion Matrix:
+922	56	9	7	6	
+2	486	2	0	1	
+12	53	925	3	7	
+4	5	5	985	1	
+1	2	1	1	995	
+
+Classification Report
+              precision    recall  f1-score   support
+
+         cpp       0.98      0.92      0.95      1000
+          cs       0.81      0.99      0.89       491
+        java       0.98      0.93      0.95      1000
+         php       0.99      0.98      0.99      1000
+          py       0.99      0.99      0.99      1000
+
+   micro avg       0.96      0.96      0.96      4491
+   macro avg       0.95      0.96      0.95      4491
+weighted avg       0.96      0.96      0.96      4491
