@@ -8,6 +8,8 @@ import json
 import numpy as np
 import tensorflow as tf
 
+
+
 from FeatureExtract import extract, CONTENT_SIZE
 from Proccess import (search_files, extract_from_files)
 #Importing all the constant values from Config.py
